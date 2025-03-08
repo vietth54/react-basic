@@ -28,3 +28,6 @@ reportWebVitals.js: dùng để đo hiệu năng web online, được gọi tron
 
 không dùng .css mà thay bằng .scss
 
+setupTests.js => xoá
+
+.gitignore: dùng để liệt kê các file không muốn đẩy lên github => comment tên file
