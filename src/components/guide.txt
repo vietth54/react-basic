@@ -1,0 +1,2 @@
+Thư mục để share source code, có thể tái sử dụng được
+Cụ thể là lưu những components có thể tái sử dụng

@@ -1,0 +1,30 @@
+- file public/index.html sẽ được render đầu tiên
+- sau khi render xong sẽ gọi đến file index.js
+- trong index.js sẽ gọi đến file component App trong App.js
+- câu lệnh tiếp theo (document.getElementById('root')) sẽ inject (tiêm) component App vào trong thẻ div(id="root") trong file public/index.html
+
+Under the hood:
+- thư viện "react-scripts" đã làm giúp những bước trên
+- thư viện "react-scripts" dùng webpack => webpack sẽ bundle (compile/dịch) tất cả file .js, .scss thành 1 file và nhúng vào đầu của file .html(public/index.html)
+=> quy trình sẽ chạy file .html đầu tiên
+
+- webpack và babel compiler giúp minimize (giảm) dung lượng của file để tối ưu hoá website khi build
+- babel compiler giúp compile (dịch) tất cả phiên bản của file .js
+
+=> nên tìm hiểu babel và webpack để setup dự án khi làm leader
+-----------------------------
+- hiện tại code backend bằng nodejs sẽ có trường hợp: code project backend trong project của frontend => dùng sails (backend nodejs dùng) và react (frontend dùng) => khi đó react không cần cấu hình webpack mà dùng luôn webpack trong con sails
+
+keyword 
+- (react chạy như thế nào) Where's the connection between index.html and index.js in a create-react-app application?
+https://stackoverflow.com/questions/42438171/wheres-the-connection-between-index-html-and-index-js-in-a-create-react-app-app
+
+
+- (react structure) structure react project
+-----------------------------
+file app.test.js: dùng để test => xoá
+
+reportWebVitals.js: dùng để đo hiệu năng web online, được gọi trong index.js
+
+không dùng .css mà thay bằng .scss
+
