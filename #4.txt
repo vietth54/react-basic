@@ -1,0 +1,27 @@
+COMPONENTS
+- component : là một class hay function có chức năng render ra một khối HTML
+    + sử dụng cách viết jsx để có thể viết component, viết html trong file .js
+    + có 2 kiểu:
+        + class component (sẽ đi sâu phần này): phải sử dụng hàm render() trước "return"
+        + function component (khai báo kiểu function truyền thống hoặc arrow function): "return" trực tiếp
+
+- import: dùng để thêm các nguyên liệu không nằm trong file để sử dụng trong file
+
+- export: xuất component sau khi viết
+
+-  jsx
+
+- có 2 loại khai báo:
+    + shortcut: <MyComponent /> : khi class không có con
+    + full: <MyComponent> </MyComponent> : khi muốn render con của class
+=> đa phần sử dụng cách shortcut
+
+
+
+
+
+--------------------------------
+keyword:
+    + import in js
+    + export default vs export
+    + ../ vs ./
